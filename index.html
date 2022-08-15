@@ -1,82 +1,623 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Meta Leader</title>
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Custom Css Link -->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!--=============== BOXICONS ===============-->
-        
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+     
+    <!---
+         #HEADER
+    -->
+    <header class="header">
+        <div class="container">
 
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+          <!-- Logo -->
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="">
+            <h3>
+                <a href="#" class="logo">FML</a>
+            </h3>
 
-        <title> Responsive portfolio website Ansel </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            
-        </header>
+            <!-- Navbar -->
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#event" class="navbar-link">Event</a>
+                    </li>
+                    <li>
+                        <a href="#roadmap" class="navbar-link">Road Map</a>
+                    </li>
+                    <li>
+                        <a href="#sponsors" class="navbar-link">Sponsors</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Header Actions -->
+
+            <div class="header-actions">
+                <button class="header-action-btn" aria-label="Open Search" data-search-toggler>
+                    <i class='bx bx-search'></i>
+                </button>
+
+                <button class="header-action-btn" aria-label="Open shop" data-shop-toggler>
+                    <i class='bx bx-user' ></i>
+                </button>
+
+                <div class="header-action-btn menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <main>
+        <article>
+            <!-- 
+                #HOME
+            -->
+             <section class="section home" style="background-image: url('image/home-bg.jpg');" id="home">
+                <div class="overlay overlay-lg">
+                    <h2 class="letters l1">TURE</h2>
+                    <h2 class="letters l2">FU</h2>
+                </div>
+                 <div class="container">
+                    <div class="home-content">
+                        <span class="home-subtitle">We love METAVERSE</span>
+                        <h2 class="h2 home-title">Future Meta Leader</h2>
+                        <a href="#" class="btn btn-primary">
+                            Learn More
+                        </a>
+                    </div>
+
+                    <div class="scroll-animation">
+		
+                        <div class="mouse">
+                           <div class="wheel"></div>
+                        </div>
+                        
+                        <div class="arrows">
+                            <span class="first"></span>
+                            <span class="second"></span>
+                            <span class="third"></span>
+                        </div>
+                    </div>
+                 </div>
+             </section>
+
+             <!-- 
+                #RECORD
+            -->
+
+            <!-- 
+                #OVERVIEW
+             -->
+            <section class="section overview">
+                <div class="container">
+                    <div class="overview-banner">
+                        <img src="image/overview.jpg" alt="" class="w-100">
+                    </div>
+
+                    <div class="overview-content">
+                        <span class="section-subtitle">Overview</span>
+                        <h2 class="h2 section-title">Access to the event</h2>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Modi repudiandae, beatae nostrum aut ullam quas ex corrupti eius? Magnam, assumenda!
+                        </p>
+
+                        <ul class="overview-list">
+
+                            <li class="overview-item">
+                                <div class="overview-wrapper">
+                                    <div class="overview-item-icon">
+                                        <i class='bx bxs-graduation'></i>
+                                    </div>
+                                    <div class="overview-item-text">
+                                        <h3 class="h3 card-title">
+                                            Only College students or higher
+                                        </h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="overview-item">
+                                <div class="overview-wrapper">
+                                    <div class="overview-item-icon">
+                                        <i class='bx bx-group' ></i>
+                                    </div>
+                                    <div class="overview-item-text">
+                                        <h3 class="h3 card-title">
+                                            Minimum team of 2 to participate
+                                        </h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="overview-item">
+                                <div class="overview-wrapper">
+                                    <div class="overview-item-icon">
+                                        <i class='bx bx-money'></i>
+                                    </div>
+                                    <div class="overview-item-text">
+                                        <h3 class="h3 card-title">
+                                            Prize money and perks
+                                        </h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
-            
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
+
+             <!-- 
+                #VC ROUND
+             -->
+
+             <section class="section round">
+                <div class="container">
+
+                    <span class="section-subtitle">VC ROUND</span>
+                    <h2 class="h2 section-title">Choose Your Challenge</h2>
+                    <ul class="round-list">
+                        <li>
+
+                            <div class="card">
+                                <div class="imgBx">
+                                    <i class='bx bxl-meta'></i>
+                                </div>
+                                <div class="contentBx">
+                                  <h2 class="card-title">Metaverse</h2>
+
+                                  <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                     Aliquam ab, adipisci debitis omnis dignissimos corrupti!
+                                  </p>
+                                  <a href="#" class="card-btn">Get Started</a>
+                                </div>
+                              </div>
+                        </li>
+                        <li>
+
+                            <div class="card card-1">
+                                <div class="imgBx">
+                                    <i class='bx bx-bitcoin' ></i>
+                                </div>
+                                <div class="contentBx">
+                                  <h2 class="card-title">Crypto</h2>
+                                  <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                     Aliquam ab, adipisci debitis omnis dignissimos corrupti!
+                                  </p>
+                                  <a href="#" class="card-btn">Get Started</a>
+                                </div>
+                              </div>
+                        </li>
+                        <li>
+
+                            <div class="card card-2">
+                                <div class="imgBx">
+                                    <i class='bx bxl-redux'></i>
+                                </div>
+                                <div class="contentBx">
+                                  <h2 class="card-title">Defi</h2>
+                                  <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                     Aliquam ab, adipisci debitis omnis dignissimos corrupti!
+                                  </p>
+                                  <a href="#" class="card-btn">Get Started</a>
+                                </div>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+             <section class="section kynote">
+                <div class="container">
+                    <span class="section-subtitle">Keynote Presentations</span>
+                    <h2 class="h2 section-title">who presents them</h2>
+
+                    <div class="blog-slider">
+                      <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                          <div class="blog-slider__img">
+                            <img src="image/Kynote-1.jpeg" alt="">
+                          </div>
+                          <div class="blog-slider__content">
+                            <div class="blog-slider__title">My name is <span class="span"> John Deo</span></div>
+                            <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                            <div class="blog-slider_contact">
+                              <h3 class="blog-slider_info">
+                                <span class="span">Name</span>
+                                John Deo
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">Phone</span>
+                                0123456789
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">contry</span>
+                                 America
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">Email</span>
+                                test@gmail
+                              </h3>
+                            </div>
+
+
+                            <div class="blog-slider_eduction">
+                                <span class="edu-title">Education</span>
+                                <p class="edu-text">
+                                  B. A. (Hons) in Graphic Design & Multimedia <br> Shanto-Mariam University of <br> Creative Technology
+                                </p>
+                            </div>
+                            <a href="#" class="blog-slider__button">READ MORE</a>
+                          </div>
+                        </div>
+
+                        <div class="blog-slider__item swiper-slide">
+                          <div class="blog-slider__img">
+                            <img src="image/Kynote-2.jpeg" alt="">
+                          </div>
+                          <div class="blog-slider__content">
+                            <div class="blog-slider__title">My name is <span class="span"> John Deo</span></div>
+                            <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                            <div class="blog-slider_contact">
+                              <h3 class="blog-slider_info">
+                                <span class="span">Name</span>
+                                John Deo
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">Phone</span>
+                                0123456789
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">contry</span>
+                                 America
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">Email</span>
+                                test@gmail
+                              </h3>
+                            </div>
+
+
+                            <div class="blog-slider_eduction">
+                                <span class="edu-title">Education</span>
+                                <p class="edu-text">
+                                  B. A. (Hons) in Graphic Design & Multimedia <br> Shanto-Mariam University of <br> Creative Technology
+                                </p>
+                            </div>
+                            <a href="#" class="blog-slider__button">READ MORE</a>
+                          </div>
+                        </div>
+                        
+                        <div class="blog-slider__item swiper-slide">
+                          <div class="blog-slider__img">
+                            <img src="image/Kynote-3.jpeg" alt="">
+                          </div>
+                          <div class="blog-slider__content">
+                            <div class="blog-slider__title">My name is <span class="span"> John Deo</span></div>
+                            <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                            <div class="blog-slider_contact">
+                              <h3 class="blog-slider_info">
+                                <span class="span">Name</span>
+                                John Deo
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">Phone</span>
+                                0123456789
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">contry</span>
+                                 America
+                              </h3>
+                              <h3 class="blog-slider_info">
+                                <span class="span">Email</span>
+                                test@gmail
+                              </h3>
+                            </div>
+
+
+                            <div class="blog-slider_eduction">
+                                <span class="edu-title">Education</span>
+                                <p class="edu-text">
+                                  B. A. (Hons) in Graphic Design & Multimedia <br> Shanto-Mariam University of <br> Creative Technology
+                                </p>
+                            </div>
+                            <a href="#" class="blog-slider__button">READ MORE</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="blog-slider__pagination"></div>
+                    </div>
+                </div>
+             </section>
+
+             <section class="section award">
+                <div class="container">
+                    <h2 class="h2 award-title">Most Award & Creative</h2>
+
+                    <div class="stars-list">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+
+                    <p class="award-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta cumque nobis quasi
+                        esse voluptas adipisci repudiandae obcaecati! Sequi itaque illum deleniti rerum, quasi facere.
+                    </p>
+
+                    <div class="award-card">
+                       <div class="award-content">
+                          <div class="award-top">
+                            <!-- <div class="card-shap">
+                                <img src="image/laurel.png" alt="" class="img-cover">
+                            </div> -->
+                            <div class="card-content">
+                                <h3 class="h3 card-title">
+                                    Top Ranked Students <br> are from here
+                                </h3>
+
+                                <p class="card-text">
+                                    Students we tutored excelled the best in Exams
+                                </p>
+                            </div>
+                          </div>
+                          <div class="award-bottom">
+                            <ul class="award-list">
+                                <li class="award-item">
+                                    <div class="award-banner">
+                                        <img src="image/award-1.png" class="img-cover" alt="">
+                                    </div>
+
+                                    <div class="award-item-content">
+                                        <h3 class="card-item-title">Summer Joinee</h3>
+                                        <p class="card-item-text">
+                                            Best Creative <br>
+                                            Excellence Award
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="award-item">
+                                    <div class="award-banner">
+                                        <img src="image/award-2.png" class="img-cover" alt="">
+                                    </div>
+
+                                    <div class="award-item-content">
+                                        <h3 class="card-item-title">2022</h3>
+                                        <p class="card-item-text">
+                                            Top Archiever <br>
+                                            Creadit Award
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="award-item">
+                                    <div class="award-banner">
+                                        <img src="image/award-3.png" class="img-cover" alt="">
+                                    </div>
+
+                                    <div class="award-item-content">
+                                        <h3 class="card-item-title">High School</h3>
+                                        <p class="card-item-text">
+                                            Wisdom Valley<br>
+                                            Excellence Award
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                       </div>
+                    </div>
+                </div>
+             </section>
+        </article>
+     </main>
+
+     <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-brand">
+              <a href="#" class="logo">FML</a>
+              <p class="section-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its
+                layout. The point of using Lorem Ipsum.
+              </p>
+
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <i class='bx bxl-facebook'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i class='bx bxl-twitter' ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i class='bx bxl-linkedin' ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i class='bx bxl-pinterest-alt' ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Explore</p>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+                  <span class="span">About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+                  <span class="span">Upcoming Events</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+                  <span class="span">Blog & News</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+                  <span class="span">FAQ Question</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+                  <span class="span">Testimonial</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+                  <span class="span">Privacy Policy</span>
+                </a>
+              </li>
+            </ul>
+  
+            <ul class="footer-list">
+  
+              <li>
+                <p class="footer-list-title">Useful Links</p>
+              </li>
+  
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+  
+                  <span class="span">Contact Us</span>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+  
+                  <span class="span">Pricing Plan</span>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+  
+                  <span class="span">Instructoe Profile</span>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+  
+                  <span class="span">FAQ</span>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+  
+                  <span class="span">Popular Courses</span>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="footer-link">
+                  <i class='bx bx-chevron-right' ></i>
+  
+                  <span class="span">Terms & Condition</span>
+                </a>
+              </li>
+  
+            </ul>
+  
+            <ul class="footer-list">
+  
+              <li>
+                <p class="footer-list-title">Contact Info</p>
+              </li>
+  
+              <li class="footer-item">
+                  <i class='bx bx-map' ></i>
+  
+                  <div class="footer-link address">275 Quadra Street Victoria Road, New York</div>
+              </li>
+  
+              <li class="footer-item">
+                <i class='bx bxs-phone' ></i>
+  
+                  <a class="footer-link">+ 1 (364) 765-7839</a>
                 
-            </section>
+              </li>
+  
+              <li class="footer-item">
+                <i class='bx bxs-phone' ></i>
+  
+                <a class="footer-link">+ 1 (364) 765-7840</a>
+              </li>
+  
+              <li class="footer-item">
+                <i class='bx bx-envelope' ></i>
+  
+                  <a class="footer-link">contact@flm.com</a>
+              </li>
+  
+            </ul>
+  
+          </div>
 
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                
-            </section>
+          <div class="footer-bottom">
+            <p class="copyright">
+               Copyright 2022 All Rights Reserved By <a href="#" class="copyright-link">Younes Ayoub</a>
+            </p>
+          </div>
+        </div>
+       </footer>
 
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                
-            </section>
-
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                
-            </section>
-
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                
-            </section>
-
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                
-            </section>
-        </main>
-
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            
-        </footer>
-
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
-
-        <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
-
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src=""></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
